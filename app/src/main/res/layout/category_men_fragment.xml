@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/back_app"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_2"
+        >
+
+        <View
+            android:id="@+id/view_product"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/back_view_product"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView_product"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            app:layout_constraintBottom_toBottomOf="@+id/view_product"
+            app:layout_constraintEnd_toEndOf="@+id/view_product"
+            app:layout_constraintStart_toStartOf="@+id/view_product"
+            app:layout_constraintTop_toTopOf="@+id/view_product"
+            app:srcCompat="@drawable/img_34" />
+
+        <View
+            android:id="@+id/view_product1"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/back_view_product"
+            app:layout_constraintEnd_toStartOf="@+id/view_product"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView_product1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_constraintBottom_toBottomOf="@+id/view_product1"
+            app:layout_constraintEnd_toEndOf="@+id/view_product1"
+            app:layout_constraintStart_toStartOf="@+id/view_product1"
+            app:layout_constraintTop_toTopOf="@+id/view_product1"
+            app:srcCompat="@drawable/img_35" />
+
+        <View
+            android:id="@+id/view_product2"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/back_view_product"
+            app:layout_constraintEnd_toStartOf="@+id/view_product3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView_product2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_constraintBottom_toBottomOf="@+id/view_product2"
+            app:layout_constraintEnd_toEndOf="@+id/view_product2"
+            app:layout_constraintStart_toStartOf="@+id/view_product2"
+            app:layout_constraintTop_toTopOf="@+id/view_product2"
+            app:srcCompat="@drawable/img_36" />
+
+        <View
+            android:id="@+id/view_product3"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/back_view_product"
+            app:layout_constraintEnd_toStartOf="@+id/view_product1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView_product3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_constraintBottom_toBottomOf="@+id/view_product3"
+            app:layout_constraintEnd_toEndOf="@+id/view_product3"
+            app:layout_constraintStart_toStartOf="@+id/view_product3"
+            app:layout_constraintTop_toTopOf="@+id/view_product3"
+            app:srcCompat="@drawable/img_37" />
+
+        <View
+            android:id="@+id/view_product4"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/back_view_product"
+            app:layout_constraintEnd_toStartOf="@+id/view_product2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView_product4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_constraintBottom_toBottomOf="@+id/view_product4"
+            app:layout_constraintEnd_toEndOf="@+id/view_product4"
+            app:layout_constraintStart_toStartOf="@+id/view_product4"
+            app:layout_constraintTop_toTopOf="@+id/view_product4"
+            app:srcCompat="@drawable/img_38" />
+
+        <View
+            android:id="@+id/view_product5"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/back_view_product"
+            app:layout_constraintEnd_toStartOf="@+id/view_product4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView_product5"
+            android:layout_width="41dp"
+            android:layout_height="46dp"
+            app:layout_constraintBottom_toBottomOf="@+id/view_product5"
+            app:layout_constraintEnd_toEndOf="@+id/view_product5"
+            app:layout_constraintStart_toStartOf="@+id/view_product5"
+            app:layout_constraintTop_toTopOf="@+id/view_product5"
+            app:srcCompat="@drawable/img_39" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/men"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_product" />
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/back_edt_text"
+            android:iconifiedByDefault="false"
+            android:queryHint="هرچی میخوای جستجو کن..."
+            android:searchIcon="@drawable/img_23"
+            android:textDirection="rtl"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="@string/menClothes"
+            app:layout_constraintEnd_toEndOf="@+id/searchView"
+            app:layout_constraintTop_toBottomOf="@+id/searchView" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="0dp"
+            android:id="@+id/recyclerView"
+            android:layout_height="0dp"
+            android:paddingStart="10dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
